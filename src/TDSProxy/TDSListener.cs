@@ -67,7 +67,7 @@ namespace TDSProxy
 				Dispose();
 				return;
 			}
-
+			
 			try
 			{
 				log.DebugFormat("Opening SSL certificate store {0}.{1}", configuration.SslCertStoreLocation, configuration.SslCertStoreName);

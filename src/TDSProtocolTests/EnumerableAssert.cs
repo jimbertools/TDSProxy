@@ -31,8 +31,8 @@ namespace TDSProtocolTests
 				uint count = 0;
 				for (uint idx = 1;
 					 // NOTE: use of & not && is deliberate because we DO NOT want to shortcut
-				     (moreExpected = expectedIterator.MoveNext()) & (moreActual = actualIterator.MoveNext());
-				     idx++, count++)
+					 (moreExpected = expectedIterator.MoveNext()) & (moreActual = actualIterator.MoveNext());
+					 idx++, count++)
 				{
 					if (comparer.Compare(expectedIterator.Current, actualIterator.Current) != 0)
 					{

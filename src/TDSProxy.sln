@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSProxy", "TDSProxy\TDSProxy.csproj", "{0AE9E17C-C69B-44E9-A923-6B9B3D62BD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDSProxy", "TDSProxy\TDSProxy.csproj", "{0AE9E17C-C69B-44E9-A923-6B9B3D62BD40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSProtocol", "TDSProtocol\TDSProtocol.csproj", "{99FCFF04-2F8E-4AC9-8136-C2574D1E0F2F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSProtocolTests", "TDSProtocolTests\TDSProtocolTests.csproj", "{2ADF0698-4E98-45FA-88EC-413F75BB8FF7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAuthenticator", "SampleAuthenticator\SampleAuthenticator.csproj", "{47F41C77-1B67-4CB9-B217-27F1A882A857}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSProxy.Authentication", "TDSProxy.Authentication\TDSProxy.Authentication.csproj", "{87A5B526-EC83-4237-9A08-7AA977DA8EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDSProtocol", "TDSProtocol\TDSProtocol.csproj", "{99FCFF04-2F8E-4AC9-8136-C2574D1E0F2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnection", "TestConnection\TestConnection.csproj", "{2B478DDF-E3E5-4C83-B89B-1F1571A72B24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDSProxy.Authentication", "TDSProxy.Authentication\TDSProxy.Authentication.csproj", "{D0393653-61B9-461B-A828-B9656B295191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleAuthenticator", "SampleAuthenticator\SampleAuthenticator.csproj", "{7E9E3A09-F93B-49C9-BCBB-1BAE98CF8380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDSProtocolTests", "TDSProtocolTests\TDSProtocolTests.csproj", "{07E36B94-83EC-4577-B687-64EF27142599}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,22 +29,22 @@ Global
 		{99FCFF04-2F8E-4AC9-8136-C2574D1E0F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99FCFF04-2F8E-4AC9-8136-C2574D1E0F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99FCFF04-2F8E-4AC9-8136-C2574D1E0F2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2ADF0698-4E98-45FA-88EC-413F75BB8FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ADF0698-4E98-45FA-88EC-413F75BB8FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ADF0698-4E98-45FA-88EC-413F75BB8FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2ADF0698-4E98-45FA-88EC-413F75BB8FF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47F41C77-1B67-4CB9-B217-27F1A882A857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47F41C77-1B67-4CB9-B217-27F1A882A857}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47F41C77-1B67-4CB9-B217-27F1A882A857}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47F41C77-1B67-4CB9-B217-27F1A882A857}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87A5B526-EC83-4237-9A08-7AA977DA8EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87A5B526-EC83-4237-9A08-7AA977DA8EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87A5B526-EC83-4237-9A08-7AA977DA8EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87A5B526-EC83-4237-9A08-7AA977DA8EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B478DDF-E3E5-4C83-B89B-1F1571A72B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B478DDF-E3E5-4C83-B89B-1F1571A72B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B478DDF-E3E5-4C83-B89B-1F1571A72B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B478DDF-E3E5-4C83-B89B-1F1571A72B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0393653-61B9-461B-A828-B9656B295191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0393653-61B9-461B-A828-B9656B295191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0393653-61B9-461B-A828-B9656B295191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0393653-61B9-461B-A828-B9656B295191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9E3A09-F93B-49C9-BCBB-1BAE98CF8380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9E3A09-F93B-49C9-BCBB-1BAE98CF8380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9E3A09-F93B-49C9-BCBB-1BAE98CF8380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9E3A09-F93B-49C9-BCBB-1BAE98CF8380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E36B94-83EC-4577-B687-64EF27142599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E36B94-83EC-4577-B687-64EF27142599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E36B94-83EC-4577-B687-64EF27142599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E36B94-83EC-4577-B687-64EF27142599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
